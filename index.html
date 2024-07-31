@@ -94,7 +94,35 @@
 
     <main>
         <div class="layout leftside">
+            <div class="filter">
+                <i class="fa-solid fa-filter"></i> Filter
+            </div>
+           <ul>
+            <li><a href=""> <i class="fa-solid fa-caret-down"></i> Introduction to HTML</a>
+                <ul class="dropdown">
+                    <li><a href="#id-one">Introduction</a></li>
+                    <li><a href="">Getting started with HTML</a></li>
+                    <li><a href="">Metadata in HTML</a></li>
+                </ul>
+            </li>
 
+            <li><a href=""> <i class="fa-solid fa-caret-down"></i> Multimedia and embedding</a>
+                <ul class="dropdown">
+                    <li><a href="">Introduction</a></li>
+                    <li><a href="">Getting started with HTML</a></li>
+                    <li><a href="#id-two">Key Resources</a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </li>
+
+            <li><a href=""> <i class="fa-solid fa-caret-down"></i> HTML tables</a>
+                <ul class="dropdown">
+                    <li><a href="">Introduction</a></li>
+                    <li><a href="">Getting started with HTML</a></li>
+                    <li><a href="">Metadata in HTML</a></li>
+                </ul>
+            </li>
+           </ul>
 
         </div>
 
@@ -108,7 +136,7 @@
                     <h1>
                         HTML: HyperText Markup Language
                     </h1>
-                    <p><span>HTML </span>(HyperText Markup Language) is the most basic building block of the Web. It
+                    <p><span id="id-one">HTML </span>(HyperText Markup Language) is the most basic building block of the Web. It
                         defines the
                         meaning and structure of web content. Other technologies besides HTML are generally used to
                         describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).
@@ -138,7 +166,7 @@
                             World Wide Web.</p>
                 </section>
                 <section id="heading2">
-                    <h1>Key resources</h1>
+                    <h1 id="id-two">Key resources</h1>
                     <h4>HTML Introduction</h4>
                     <p>If you're new to web development, be sure to read our HTML Basics article to learn what
                         HTML
@@ -165,11 +193,13 @@
         </div>
         <div class="layout rightside">
             <h4>In this article</h4>
+            <ul>
             <li><a href="#heading1">HTML: HyperText Markup Language</a></li>
             <li><a href="#heading2">Key resources</a></li>
             <li><a href="#heading1">HTML: HyperText Markup Language</a></li>
             <li><a href="#heading2">Key resources</a></li>
             <li><a href=""></a></li>
+            </ul>
         </div>
     </main>
 
